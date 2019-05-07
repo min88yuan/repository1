@@ -1,0 +1,275 @@
+/*首格导航栏a标签样式*/
+.a{
+list-style: none;
+text-decoration: none;
+float: left;
+font-size: 1rem;
+color: white;
+text-align: center;
+margin-top: 0.5rem;
+margin-left: 2rem;
+}
+a:hover {
+	      color:red;
+        }
+
+ /*导航栏div区域样式*/       
+.top{
+    width: 100%;
+    height:40px;
+    background-color: #333333;
+} 
+/*小米大小浮动样式*/
+.logo{
+    margin-top: 22.5px;
+    margin-right: 7px;
+    height: 55px;
+    width: 55px;
+    float: left;
+    background-color: #ff7e79;
+}
+/*区域设置宽带，自动间距*/
+.centre{
+    width: 1226px;
+    margin: 0 auto;
+
+       }
+.a2{
+list-style: none;
+text-decoration: none;
+float: left;
+font-size: 1rem;
+color: black;
+text-align: center;
+margin-top: 2.3rem;
+margin-left: 2rem;
+}
+/*搜索框*/
+.search-box{
+    border: 1px solid;
+    width: 220px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 160px;
+    font-size: 1.2rem;
+}
+/*提交键*/
+.serach_submit{
+	height: 55px;
+	width: 40px;
+	margin-top: 26px;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+/*中部大图片设置*/
+.img{
+    width: 1222px;
+    height: 460px;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+/*图片上选择条中的>*/
+.choose-spn{
+    color: #ffffff;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    padding-right: 20px;
+}
+/*选择条*/
+.choose{
+	float: left;
+    height: 420px;
+    width: 270px;
+    padding: 20px 0;
+    color: #ffffff;
+    background:rgba(0,0,0,0.6);
+    display: inline-block;
+    position: absolute;
+    top: 161px;
+    left:63px;
+}
+.choose ul li{
+    font-size: 14px;
+    height:42px;
+    width: 234px;
+    line-height: 42px;
+    margin-left: 0px;
+    list-style-type: none;
+}
+.choose ul li a{
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+}
+/*悬停触发*/
+.choose ul li a:hover{
+    background-color: #ff6116;
+    color: #ffffff;
+    width: 200px;
+    height: 42px;
+}
+
+
+/*中间广告*/
+.adver{
+    width: 195px;
+    height: 164px;
+    padding: 3px;
+    display: inline;
+    background-color: #5f5750;
+    margin-left: 54px;
+    float: left;
+    }
+ .adver ul li{
+ 	list-style: none;
+ 	margin: -3px;   
+    width: 70px;
+    height: 46px;
+    padding-left:10px;
+    float: left;
+    line-height: 46px;
+    text-align: left;
+    font-size: 14px;
+
+}
+.adver ul li a{
+    color: rgba(255,255,255,0.7);
+    display: inline-block;
+    text-decoration: none;
+}
+.adver ul li a:hover{
+    color: red;
+}
+.advertising ul li{
+    display: inline-block;
+    margin-left: 14px;
+}
+.img1{
+    width: 323px;
+    height: 170px;
+    float: right;
+}
+
+/*底部栏样式*/
+
+ .bott{
+ 	width: 91.5%;
+ 	height: 70px;
+ 	float: left;
+ 	display: inline-block;
+ 	margin-left: 54px;
+ 	background-color: #5f5750;
+ 	padding: 3px;
+ }
+ .bott ul li{
+ 	list-style: none;  
+    width: 200px;
+    height: 45px;
+    float: left;
+    line-height: 35spx;
+    margin-bottom: 25px;
+    font-size: 25px;
+    margin-left: 30px;
+
+}
+.bott ul li a{
+    color: rgba(255,255,255,0.7);
+    display: inline-block;
+    text-decoration: none;
+}
+.bott ul li a:hover{
+    background-color: #ff6116;
+   color: #ffffff;
+}
+
+/*右部标签设置*/
+.gouwu{
+	position: fixed;
+	top: 110px;
+	right: 3px;
+}
+.geren{
+	position: fixed;
+	top: 220px;
+	right:3px;
+}
+.app{
+	position: fixed;
+	top: 330px;
+	right:3px;
+}
+.kefu{
+	position: fixed;
+	top: 440px;
+	right:3px;
+}
+.totop{
+	position: fixed;
+	top: 560px;
+	right:3px;
+}
+.psize{
+	font-size: 15px;
+	color: orange;
+	margin-top: 1px;
+}
+.psize:hover{
+   color:skyblue;
+}
+   
+  /*轮播图效果样式*/ 
+    ul{
+        list-style: none;
+    }
+    #container{
+        position: relative;
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .pic{
+        width: 1600px;
+        position: absolute;
+        left: 0;
+        animation-name: focusmap;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes focusmap{
+        0%,30%{
+            left: 0;
+        }
+        35%,65%{
+            left: -400px;
+        }
+        70%,99%{
+            left: -800px;
+        }
+        100%{
+            left: -1200px;
+        }
+    }
+    .pic li{
+        float: left;
+        background: #5dd94e;
+    }
+    .pic li img{
+        width: 400px;
+        height: 300px;
+    }
+
+
+.p1{
+    float: left;
+    font-size: 16px;
+    text-align: center;
+}
+.p1 a{
+    text-decoration: none;
+    color: gray;
+}
+.p1 a:hover{
+   color:orange;
+}

@@ -1,0 +1,112 @@
+    <!DOCTYPE html>
+    <html>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>ShoppingCar</title>
+            <link rel="icon" href="images/小图标/购物车.png">
+    		<link rel="stylesheet" href="style.css" />
+    		<script type="text/javascript" src="first.js" ></script>
+    	</head>
+    	<body>
+
+        <div class="top">
+            <span class="span" style="margin-left: 5rem;"><em>请，登录</span>
+            <a href="landing.html" class="a" style="margin-left: 25rem;">登录</a>
+            <a href="Homepage.html" class="a">商城首页</a>        
+            <a href="resume.html" class="a">个人信息</a>
+            <a href="#" class="a">手机APP</a>
+            <a href="#" class="a">消息中心</a>
+            <a href="#" class="a">收藏夹</a>
+            <a href="#" class="a">客服人员</a>   
+        </div>
+        <div class="centre">
+        <div class="logo"><img src="images/logo-footer.png"></div>
+        <div class="span2"><span style="font-size: 2rem;"><em>小米，为科技发烧！</em></span></div>
+        <div> 
+            <form action="#" method="get">
+                <label for="search"> </label>
+                <input type="text" class="search-box" id="search" name="search" value="">
+                <input type="submit" value="搜索" class="serach_submit">
+            </form>
+        </div>
+    </div><br/>
+    <hr style="filter: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#987cb9 SIZE=3>
+
+    		<center>
+    			<div class="good-list">
+    				<ul id="ul">
+    					<li>
+    						<img  src="images/phone1.jpg"/>
+    						<p class="good-name">小米8</p>
+    						<p class="good-pice">￥2699.00</p>
+    					</li>
+    					<li>
+    						<img  src="images/phone2.png"/>
+    						<p class="good-name">小米8 SE</p>
+    						<p class="good-pice">￥1880.00</p>
+    					</li>
+    					<li>
+    						<img  src="images/键盘1.png"/>
+    						<p class="good-name">键盘</p>
+    						<p class="good-pice">￥52.00</p>
+    					</li>
+    					<li>
+    						<img  src="images/电脑图片1.jpg"/>
+    						<p class="good-name">小米 笔记本</p>
+    						<p class="good-pice">￥5200.00</p>
+    					</li>
+    					<li>
+    						<img  src="images/抢购图片1.jpg"/>
+    						<p class="good-name">小米音箱</p>
+    						<p class="good-pice">￥188.00</p>
+    					</li>
+    				</ul>
+    			</div>
+
+
+    			<div class="shopping" align="right"><img src="images/小图标/购物车.png" width="40px"/></div>
+    			<div class="shopping">
+    				<table border=1 bordercolor="#CCC" cellspacing="0" id="tb">
+    					<tr height=45>
+                        <th width="10%"><input type="checkbox" value="全选"  onclick="allSelect(this.checked),total()" id="isAllSelect"/>&nbsp;全选</th>
+    					<th width="15%">图片</th>
+    					<th width="25%">名称</th>
+    					<th width="15%">单价</th>
+    					<th width="25%">数量</th>
+    					<th>操作</th></tr>
+    					<tr>
+    						<td style="border-right: none;"><input type="button" value="删除选择" id="deleteAll" onclick="deletAllSelect()"/></td>
+    						<td style="border-left: none;" colspan="5" align="right">合计：￥<span id="totalSpan">0</span>
+    							<input type="button" id="pay" value="结算(0)"/>
+    						</td>
+    					</tr>
+    				</table>
+    			</div>
+    		</center>
+
+    <hr style="filter: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#987cb9 SIZE=3>
+      <div class="footer">
+        <span class="font"><em>品类齐全，轻松购物</em></span>
+        <span class="font"><em>多仓直发，极速配送</em></span>
+        <span class="font"><em>正品行货，精致服务</em></span>
+        <span class="font"><em>天天低价，畅选无忧</em></span>
+      </div>
+    <div class="logo"><img src="images/logo-footer.png"></div>
+     <div style="right: 500px;">
+         <p class="p1">
+            <a href="#" >mi.com</a>
+            <a href="#" >京ICP证110507号</a>
+            <a href="#" >京ICP备10046444号</a>
+            <a href="#" >京公网安备11010802020134号</a>
+            <a href="#" >京网文[2017]1530-131号 </a>
+            <br>
+            <a href="#" >（京）网械平台备字（2018）第00005号</a>
+            <a href="#" >互联网药品信息服务资格证 (京) -非经营性-2014-0090</a>
+            <a href="#" >营业执照</a>
+            <a href="#" >医疗器械公告</a>
+            <br>
+            <a href="#" >违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</a>
+        </p>
+    </div>
+ </body>
+</html>
